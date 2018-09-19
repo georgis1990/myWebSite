@@ -211,7 +211,7 @@ div#about {
     float: right;
     text-decoration: none;
 }
-img.img-fluid {
+.aboutImage {
     margin-top: 22%;
 }
 .about-text-right {
@@ -238,4 +238,8 @@ img.img-fluid {
 	margin: 0 auto 30px auto;
 	font-family: monospace;
 
+}
+
+.workImg{
+	padding: 40px;
 }

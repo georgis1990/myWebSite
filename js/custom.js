@@ -44,9 +44,11 @@ $(window).scroll(function(){
 
 //typed js text animation
 var typed = new Typed(".type", {
-strings: ["Web Developer",
-          "JAVASCRIPT"],
-typeSpeed: 1,
+strings: ["JAVASCRIPT",
+          "HTML/CSS",
+          "WORDPRESS",
+          "RUBY ON RAILS"],
+typeSpeed: 10,
 backSpeed: 30,
 smartBackspace: true,
  showCursor: false,

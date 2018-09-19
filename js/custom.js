@@ -38,8 +38,7 @@ if (
 //change navbar background on scrool
 $(window).scroll(function(){
   $('nav').toggleClass('scrolled', $(this).scrollTop() > 770);
-  $('nav').toggleClass('scrolled', $(this).scrollTop() > 770);
-  $('nav').toggleClass('scrolled', $(this).scrollTop() > 770);
+
 
 });
 
@@ -70,3 +69,27 @@ $("#downloadCv").hover(function(){
     }, function(){
    $(this).removeClass('animated pulse');
 });
+
+// progress bar on Skills
+
+$(window).scroll(function(){
+
+    $('#progress95').toggleClass('scrolled', $(this).scrollTop() > 70);
+
+  });
+
+  $(window).scroll(function(){
+
+      $('#progress85').toggleClass('scrolled', $(this).scrollTop() > 70);
+
+    });
+    $(window).scroll(function(){
+
+        $('#progress75').toggleClass('scrolled', $(this).scrollTop() > 70);
+
+      });
+      $(window).scroll(function(){
+
+          $('#progress55').toggleClass('scrolled', $(this).scrollTop() > 70);
+
+        });

@@ -12,6 +12,9 @@ a.navbar-brand {
     font-size: 28px;
     font-family: monospace;
 }
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+	color: #fff;
+}
 
 
 a.nav-link {
@@ -105,6 +108,70 @@ span.typed-cursor.typed-cursor--blink{
 
 /* about CSS */
 
+#progress95{
+	width: 0%;
+}
+#progress95.scrolled{
+	animation: progress95 1s ;
+	width: 95%;
+}
+
+@keyframes progress95 {
+
+	0%{ width: 0;}
+	25%{}
+	50%{}
+	100%{width: 95%;}
+}
+
+#progress85{
+	width: 0%;
+}
+#progress85.scrolled{
+	animation: progress85 1s ;
+	width: 85%;
+}
+
+@keyframes progress85 {
+
+	0%{ width: 0;}
+	25%{}
+	50%{}
+	100%{width: 85%;}
+}
+
+#progress75{
+	width: 0%;
+}
+#progress75.scrolled{
+	animation: progress75 1s ;
+	width: 75%;
+}
+
+@keyframes progress75 {
+
+	0%{ width: 0;}
+	25%{}
+	50%{}
+	100%{width: 75%;}
+}
+
+#progress55{
+	width: 0%;
+}
+#progress55.scrolled{
+	animation: progress55 1s ;
+	width: 55%;
+}
+
+@keyframes progress55 {
+
+	0%{ width: 0;}
+	25%{}
+	50%{}
+	100%{width: 55%;}
+}
+
 div#about {
     background-color: gainsboro;
 		padding-bottom: 30px;
@@ -165,3 +232,5 @@ img.img-fluid {
 .navbar-light .navbar-nav .nav-link{
 	color: #fff;
 }
+
+/* Portfolio Area */

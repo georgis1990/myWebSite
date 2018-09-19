@@ -1,0 +1,167 @@
+
+.bg-light{
+	background-color: transparent !important;
+}
+.bg-light.scrolled{
+	transition: 550ms ease;
+	background-color: #E91E63 !important;
+	height: 45px;
+	box-shadow: 4px 7px #888888;
+}
+a.navbar-brand {
+    font-size: 28px;
+    font-family: monospace;
+}
+
+
+a.nav-link {
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+		font-size: 19px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right: 1.5rem !important;
+}
+
+.header{
+	background: url('../images/body.gif');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+
+
+}
+/*  Header  text CSS */
+.header-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70%;
+	font-family: monospace;
+}
+.header-content2{
+	position: absolute;
+	top: 42%;
+	align-items: center;
+	left: 41%;
+}
+/*
+.header-content {
+
+    position: absolute;
+    left: 37%;
+    top: 40%;
+}
+*/
+span.typed-cursor.typed-cursor--blink{
+
+	color: #fff;
+	font-size: 30px;
+}
+
+
+#welcomeText{
+	text-transform: uppercase;
+	color: #fff;
+	animation: welcomeAnimation 2s , blink 0.5s infinite alternate;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 3px solid #fff;
+	font-size: 55px;
+
+}
+.hiddenText{
+	display: none;
+}
+@keyframes welcomeAnimation {
+
+	0%{ width: 0;}
+	25%{}
+	50%{}
+	100%{width: 693px;}
+
+}
+@keyframes blink {
+	0%{
+		border-color: transparent
+	}
+	100%{
+		border-color: #fff;
+	}
+}
+
+.type{
+	color: #fff;
+	float: left;
+	margin-top: 15px;
+
+}
+
+/* about CSS */
+
+div#about {
+    background-color: gainsboro;
+		padding-bottom: 30px;
+}
+.about-text-left {
+    margin-top: 90px;
+}
+.about-text-left h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+    line-height: 1;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.about-text-left h3 {
+    color: #212121;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: right;
+    margin-bottom: 18px;
+		font-weight: 600;
+}
+.about-text-left p {
+    text-align: right;
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 50px;
+}
+.about-text-left a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #E91E63;
+    padding: 15px;
+    float: right;
+    text-decoration: none;
+}
+img.img-fluid {
+    margin-top: 22%;
+}
+.about-text-right {
+    margin-top: 90px;
+}
+#skills > div > div > h6 {
+    font-size: 12px;
+    margin: 8px;
+		font-weight: 600;
+}
+.progress-bar{
+	background-color: #606060;
+}
+
+.navbar-light .navbar-brand{
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}

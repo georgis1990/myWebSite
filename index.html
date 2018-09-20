@@ -18,7 +18,7 @@
   </head>
 
   <body>
-
+    <?php echo" this is php" ?>
     <div class="header" id="home">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light container">
           <a class="navbar-brand " href="index.html">Georgis</a>
@@ -176,13 +176,16 @@
         <div class="row">
             <h2  class="areaHeadings animated fadeInDown">Contact</h2>
         </div>
-        <div class="row">
+        <form action="https://formspree.io/georgis.ka@hotmail.com"
+            method="POST">
+        <div class="row showContact">
+
             <div class="col-md-6 col-sm-6 col-xs-12">
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
                 </div>
-                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" aria-describedby="basic-addon1">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" aria-label="Full Name" aria-describedby="basic-addon1">
               </div>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -190,21 +193,23 @@
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
                 </div>
-                <input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
+                <input type="email" name="_replyto" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
               </div>
             </div>
             <div class="input-group col-md-12 col-sm-12 col-xs-12">
               <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fas fa-comment"></i></span>
               </div>
-              <textarea class="form-control" aria-label="With textarea"></textarea>
+              <textarea type="text" name="_subject" class="form-control" rows="4" aria-label="With textarea"></textarea>
             </div>
             <div class=" col-md-12 col-sm-12 col-xs-12">
-                <button type="submit" class="btn btn-primary ">Send</button>
+                <input id="sendBtn" type="submit" value="Send Message" class="btn btn-primary btn-lg"/>
             </div>
         </div>
+        </form>
       </div>
-    </div>
+
+
     <!-- End Contact Area -->
 
     <!-- Optional JavaScript -->

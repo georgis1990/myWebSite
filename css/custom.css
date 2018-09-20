@@ -266,15 +266,26 @@ div#about {
 
 
 }
-
 .workImg{
 	padding: 40px;
 }
-
 .portfolioImgBack{
 	background: gray;
 	border-radius: 2px;
 	box-shadow: 0 20px 40px rgba(0,0,0,.2);
 	margin-bottom: 15px;
 	border: 1px solid #E91E63;
+}
+/* Contact Area */
+.showContact{
+	box-shadow: 0 20px 40px rgba(0,0,0,.2);
+}
+#sendBtn{
+	color: #fff;
+	background: #E91E63;
+	text-decoration: none;
+	margin-top: 15px;
+	border: none;
+	box-shadow: 0 20px 40px rgba(0,0,0,.2);
+
 }

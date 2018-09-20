@@ -82,6 +82,12 @@ $(window).scroll(function(){
 
   $(window).scroll(function(){
 
+      $('#progress90').toggleClass('scrolled', $(this).scrollTop() > 70);
+
+    });
+
+  $(window).scroll(function(){
+
       $('#progress85').toggleClass('scrolled', $(this).scrollTop() > 70);
 
     });

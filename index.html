@@ -9,6 +9,11 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+
+
     <title>Georgis Karipidis</title>
   </head>
 
@@ -16,7 +21,7 @@
 
     <div class="header" id="home">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light container">
-          <a class="navbar-brand " href="index.html">Georgis Karipidis</a>
+          <a class="navbar-brand " href="index.html">Georgis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,7 +41,7 @@
               <a class="nav-link jelloAnimate" href="#portfolioHome">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link jelloAnimate" href="#contact">Contact</a>
+              <a class="nav-link jelloAnimate" href="#contactHome">Contact</a>
             </li>
           </ul>
 
@@ -66,7 +71,7 @@
               <h2>Georgis Karipidis</h2>
               <h3>Full Stack Developer</h3>
               <p>
-                I am a Front-end Developer, working for the last three years. I have experience working with local clients along with clients from all around the world. I have vast knowledge in HTML 5, CSS 3, Javascript , JQuery, PHP, as well as and other programming languages and frameworks.
+                I am a Full Stack Developer, working for the last three years. I have experience working with local clients along with clients from all around the world. I have vast knowledge in HTML 5, CSS 3, Javascript , JQuery, PHP, as well as and other programming languages and frameworks.
               </p>
               <a id="downloadCv" href="images/GEORGIS KARIPIDIS CV.pdf" target="_blank" download>
                 DOWNLOAD CV
@@ -86,6 +91,14 @@
                     <h6>HTML/CSS</h6>
                     <div class="progress">
                       <div id="progress95" class="progress-bar" role="progressbar"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <h6>WORDPRESS</h6>
+                    <div class="progress">
+                      <div id="progress90" class="progress-bar" role="progressbar"  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                     </div>
                   </div>
                 </div>
@@ -136,17 +149,17 @@
     <div id="portfolioHome">
       <div class="container">
         <div class="row">
-          <h2 id="myWork" class="animated fadeInDown">My Work</h2>
+          <h2 class="areaHeadings animated fadeInDown">My Work</h2>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-12 no-pad" style=" background:gray;">
+        <div class="row portfolioImgBack" >
+          <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
             <a href="pages/javascript.html"><img class="img-fluid workImg" src="images/javascript.png" ></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 no-pad" style=" background:gray;">
+          <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
               <a href="pages/rails.html"><img class="img-fluid workImg" src="images/ruby.png" ></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 no-pad" style=" background:gray;">
-            <a href="pages/wordpress.html">  <img class="img-fluid workImg" src="images/WordPress.jpg" ></a>
+          <div class="col-md-4 col-sm-6 col-xs-12 no-pad" >
+            <a href="pages/wordpress.html">  <img class="img-fluid workImg" src="images/wordpress.png" ></a>
           </div>
 
 
@@ -156,6 +169,44 @@
     </div>
 
     <!-- End Portfolio Area -->
+
+    <!-- Start Contact Area -->
+    <div id="contactHome">
+      <div class="container">
+        <div class="row">
+            <h2  class="areaHeadings animated fadeInDown">Contact</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
+                </div>
+                <input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="input-group col-md-12 col-sm-12 col-xs-12">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-comment"></i></span>
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+            <div class=" col-md-12 col-sm-12 col-xs-12">
+                <button type="submit" class="btn btn-primary ">Send</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Area -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

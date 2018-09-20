@@ -6,7 +6,7 @@
 	transition: 550ms ease;
 	background-color: #E91E63 !important;
 	height: 45px;
-	box-shadow: 4px 7px #888888;
+	box-shadow: 0 20px 40px rgba(0,0,0,.2);
 }
 a.navbar-brand {
     font-size: 28px;
@@ -29,6 +29,15 @@ a.nav-link {
 }
 .navbar-expand-lg .navbar-nav .nav-link{
 	padding-right: 1.5rem !important;
+}
+
+.navbar-light .navbar-brand{
+	color: #fff;
+	font-size: 45px;
+	font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
 }
 
 .header{
@@ -124,6 +133,22 @@ span.typed-cursor.typed-cursor--blink{
 	100%{width: 95%;}
 }
 
+#progress90{
+	width: 0%;
+}
+#progress90.scrolled{
+	animation: progress90 1s ;
+	width: 90%;
+}
+
+@keyframes progress90 {
+
+	0%{ width: 0;}
+	25%{}
+	50%{}
+	100%{width: 90%;}
+}
+
 #progress85{
 	width: 0%;
 }
@@ -171,6 +196,8 @@ span.typed-cursor.typed-cursor--blink{
 	50%{}
 	100%{width: 55%;}
 }
+
+/* ABOUT AREA */
 
 div#about {
     background-color: gainsboro;
@@ -226,20 +253,28 @@ div#about {
 	background-color: #606060;
 }
 
-.navbar-light .navbar-brand{
-	color: #fff;
-}
-.navbar-light .navbar-nav .nav-link{
-	color: #fff;
-}
+
 
 /* Portfolio Area */
-#myWork{
+.areaHeadings{
 	margin: 0 auto 30px auto;
-	font-family: monospace;
+	font-family: bookman;
+	font-size: 45px;
+	font-weight: bold;
+	text-shadow: 2px 2px gray;
+	border-bottom: 1px solid #E91E63;
+
 
 }
 
 .workImg{
 	padding: 40px;
+}
+
+.portfolioImgBack{
+	background: gray;
+	border-radius: 2px;
+	box-shadow: 0 20px 40px rgba(0,0,0,.2);
+	margin-bottom: 15px;
+	border: 1px solid #E91E63;
 }

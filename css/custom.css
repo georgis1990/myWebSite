@@ -275,6 +275,13 @@ div#about {
 	box-shadow: 0 20px 40px rgba(0,0,0,.2);
 	margin-bottom: 15px;
 	border: 1px solid #E91E63;
+	min-height: 349px;
+}
+.noDisplay{
+	display: none;
+}
+.displayNow{
+	display: flex ;
 }
 /* Contact Area */
 .showContact{

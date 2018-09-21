@@ -289,3 +289,14 @@ div#about {
 	box-shadow: 0 20px 40px rgba(0,0,0,.2);
 
 }
+/* Footer Area */
+
+.footer-area{
+	margin-top: 15px;
+	background: #000;
+}
+#contactHome > div.footer-area > div > div > div > p{
+	color: #fff;
+	margin: 0;
+	padding: 20px 0px;
+}

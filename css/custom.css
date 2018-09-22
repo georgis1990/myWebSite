@@ -5,7 +5,6 @@
 .bg-light.scrolled{
 	transition: 550ms ease;
 	background-color: #E91E63 !important;
-	height: 45px;
 	box-shadow: 0 20px 40px rgba(0,0,0,.2);
 }
 a.navbar-brand {
@@ -270,7 +269,7 @@ div#about {
 	padding: 40px;
 }
 .portfolioImgBack{
-	background: gray;
+	background: gainsboro;
 	border-radius: 2px;
 	box-shadow: 0 20px 40px rgba(0,0,0,.2);
 	margin-bottom: 15px;
@@ -307,3 +306,5 @@ div#about {
 	margin: 0;
 	padding: 20px 0px;
 }
+
+/* Media Screen */
